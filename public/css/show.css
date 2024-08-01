@@ -1,0 +1,121 @@
+/* show.css */
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre de l'article */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style pour le contenu de l'article */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px; /* Ajoute de l'espace en bas de l'article */
+}
+
+/* Style pour la séparation entre l'article et les commentaires */
+.separator {
+    border-top: 2px solid #ddd;
+    margin: 30px 0; /* Espace au-dessus et en dessous de la séparation */
+}
+
+/* Style pour les sections de commentaires */
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Style pour les éléments de la liste des commentaires */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Style pour le nom de l'auteur du commentaire */
+li strong {
+    color: #007bff;
+}
+
+/* Style pour le bouton de suppression */
+.btn-danger {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    color: #666;
+    padding: 5px 10px;
+    font-size: 0.75rem; /* Taille plus petite pour le bouton */
+    border-radius: 4px;
+}
+
+.btn-danger:hover {
+    background-color: #d0d0d0;
+    border-color: #c0c0c0;
+    color: #333;
+}
+
+/* Style pour le formulaire d'ajout de commentaire */
+h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Style pour les groupes de formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style pour les labels du formulaire */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Style pour les champs de texte et les zones de texte */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton d'envoi du formulaire */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
